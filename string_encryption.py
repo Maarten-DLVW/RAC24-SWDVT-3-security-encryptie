@@ -18,7 +18,6 @@ def encrypt_message():
         index = chars.index(letter)
         cipher_text += key[index]
 
-    print(f"original message: {plain_text}")
     print(f"encrypted message: {cipher_text}")
 
 # decrypting
