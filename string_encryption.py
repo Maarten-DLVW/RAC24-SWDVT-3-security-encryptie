@@ -30,7 +30,6 @@ def decrypt_message():
         index = key.index(letter)
         plain_text += chars[index]
 
-    print(f"encrypted message: {cipher_text}")
     print(f"original message: {plain_text}")
 
 if __name__ == '__main__':
